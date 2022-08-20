@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/books
+spring.datasource.username=postgres
+spring.datasource.password=12345
+
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.database=postgresql
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect
+
+# flyway.user=postgres
+# flyway.password=12345
+# flyway.schemas=public
+# flyway.url=jdbc:postgresql://localhost:5432/books
+# flyway.locations=filesystem:db/migration
